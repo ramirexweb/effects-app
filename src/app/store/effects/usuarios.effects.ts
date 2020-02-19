@@ -17,7 +17,7 @@ export class UsuariosEffects {
 
 
   @Effect()
-  cargarUsuario$ = this.actions$.pipe(
+  cargarUsuarios$ = this.actions$.pipe(
     ofType (usuariosActions.CARGAR_USUARIOS),
     switchMap( () => {
       return this.usuarioService.getUsers()
