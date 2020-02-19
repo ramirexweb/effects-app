@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "http-effects": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "http-effects"
+    }
+  },
+  "defaultProject": "http-effects",
+  "cli": {
+    "analytics": "99599638-511d-4723-897d-ee79891f81e5"
+  }
 }
